@@ -10,6 +10,7 @@ import Navbar from "./components/navbar/Navbar";
 import LeftBar from "./components/leftBar/LeftBar";
 import RightBar from "./components/rightBar/RightBar";
 import Home from "./pages/home/Home";
+import Game from "./pages/games/Games";
 import Profile from "./pages/profile/Profile";
 import "./style.scss";
 import { useContext } from "react";
@@ -61,6 +62,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/games",
+          element: <Game />,
         },
         {
           path: "/profile/:id",

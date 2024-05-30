@@ -16,7 +16,6 @@ const Update = ({ setOpenUpdate, user }) => {
   });
 
   const upload = async (file) => {
-    console.log(file)
     try {
       const formData = new FormData();
       formData.append("file", file);
@@ -47,8 +46,6 @@ const Update = ({ setOpenUpdate, user }) => {
 
   const handleClick = async (e) => {
     e.preventDefault();
-
-    //TODO: find a better way to get image URL
     
     let coverUrl;
     let profileUrl;
@@ -113,13 +110,6 @@ const Update = ({ setOpenUpdate, user }) => {
             type="text"
             value={texts.email}
             name="email"
-            onChange={handleChange}
-          />
-          <label>Password</label>
-          <input
-            type="text"
-            value={texts.password}
-            name="password"
             onChange={handleChange}
           />
           <label>Name</label>

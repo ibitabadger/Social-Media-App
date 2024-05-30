@@ -70,6 +70,7 @@
 
             span {
               font-weight: 500;
+              font-family: sans-serif;
               color: themed("textColor");
             }
           }
@@ -81,9 +82,10 @@
 
             button {
               border: none;
-              padding: 5px;
+              padding: 8px;
               color: white;
               cursor: pointer;
+              border-radius: 5px;
 
               &:first-child {
                 background-color: #5271ff;

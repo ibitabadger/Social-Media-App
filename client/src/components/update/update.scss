@@ -38,6 +38,7 @@
       
         @include mobile {
          font-size: 20px;
+         font-family: sans-serif;
         }
       
       }
@@ -60,6 +61,7 @@
           gap: 10px;
           color: gray;
           font-size: 14px;
+          font-family: sans-serif;
 
           .imgContainer {
             position: relative;
@@ -77,6 +79,7 @@
               right: 0;
               margin: auto;
               font-size: 30px;
+              font-family: sans-serif;
               color: lightgray;
               cursor: pointer;
             }
