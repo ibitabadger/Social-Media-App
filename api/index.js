@@ -50,6 +50,7 @@ app.use("/api/stories", storiesRoutes);
 app.use("/api/relationships", relationshipRoutes);
 app.use("/api/games", gamesRoutes);
 
+
 app.listen(8800, () => {
   console.log("API working!");
 });

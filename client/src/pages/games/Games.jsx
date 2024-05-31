@@ -1,5 +1,3 @@
-
-
 import MultiActionAreaCard from "../../components/cards/cards"
 
 import "./games.scss"

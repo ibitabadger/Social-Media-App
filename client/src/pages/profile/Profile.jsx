@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PlaceIcon from "@mui/icons-material/Place";
-import LanguageIcon from "@mui/icons-material/Language";
+import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import Posts from "../../components/posts/Posts";
@@ -95,7 +95,7 @@ const Profile = () => {
                     <span>{data.city}</span>
                   </div>
                   <div className="item">
-                    <LanguageIcon />
+                    <WorkOutlineIcon />
                     <span>{data.website}</span>
                   </div>
                 </div>
